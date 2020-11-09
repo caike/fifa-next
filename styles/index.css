@@ -11,6 +11,23 @@
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
 
+.winners-table {
+  @apply border-collapse border-2 border-gray-500 max-w-md mx-auto;
+  margin-bottom: 30px;
+}
+
+.fifa-table-header-cell {
+  @apply border border-gray-400 p-8 px-10 text-gray-800;
+}
+
+.fifa-table-body-cell {
+  @apply border border-gray-400 p-4 text-gray-800;
+}
+
+.body-year {
+  @apply text-center;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
